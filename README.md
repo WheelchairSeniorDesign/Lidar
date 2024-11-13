@@ -84,3 +84,5 @@ uint8   line            # laser number in lidar
 
 The description of the parameters is taken from the Livox ROS2 Driver GitHub
 
+## Glim
+To run Glim, first start the LiDAR topic and then run `ros2 run glim_ros glim_rosnode --ros-args -p config_path:=$(realpath ~/config)`
