@@ -21,8 +21,10 @@ Please follow the instructions on [GitHub](https://github.com/Livox-SDK/livox_ro
 To edit the configuration file (or before building):
 - File path after building: `/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json`
 - File path before building: `/ws_livox/config`
-- The host IP address needs to be set to 192.168.1.50
-- The sensor IP address needs to be set to 192.168.1.122
+- The host IP address needs to be set to `192.168.1.50`
+  - The netmask needs to be `255.255.255.0`
+  - The gateway needs to be `192.168.1.1`
+- The sensor IP address needs to be set to `192.168.1.122`
 
 ### ROS2 Parameters
 - The path to edit the ROS2 parameters is: `/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/` after building
